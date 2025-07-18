@@ -9,7 +9,7 @@ const Home = () => {
                 <div class="py-5 font-bold">
                     <a href="#home">
                         {/* <img src="./src/assets/logo1.png" className=" " alt="" width="100" height="100" /> */}
-                        <span class="text-white">Data Analytic</span>
+                        <span class="text-white">Data Analytic Hub</span>
                     </a>
                 </div>
                 
@@ -50,18 +50,18 @@ const Home = () => {
         <section className='py-5'>
             <div className='text-center'>
                 <h2 className='text-2xl font-bold'>Why Choose Us?</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, quidem?</p>
+                <p className=''>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, quidem?</p>
             </div>
             <div className='flex gap-5 p-5'>
                 <div className='bg-green-800 rounded-lg p-5 border shadow-2xl items-center text-center justify-center'>
                     <img src="/src/assets/icon.png" alt="" className='bg-white rounded-lg' width="50" height="50" />
                     <h2 className='text-xl font-bold '>Real-Time Analytics</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla ab voluptate animi et reiciendis quae dolorum, totam repudiandae libero quidem!</p>
+                    <p className='text-justify'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla ab voluptate animi et reiciendis quae dolorum, totam repudiandae libero quidem!</p>
                 </div>
                 <div className='bg-white rounded-lg p-5 border shadow-2xl items-center text-center justify-center'>
                     <img src="/src/assets/icon.png" alt="" className='bg-green-800 rounded-lg' width="50" height="50" />
                     <h2 className='text-xl font-bold '>Real-Time Analytics</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla ab voluptate animi et reiciendis quae dolorum, totam repudiandae libero quidem!</p>
+                    <p className='text-justify'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla ab voluptate animi et reiciendis quae dolorum, totam repudiandae libero quidem!</p>
                 </div>
                 <div className='bg-white rounded-lg p-5 border shadow-2xl items-center text-center justify-center'>
                     <img src="/src/assets/icon.png" alt="" className='bg-green-800 rounded-lg' width="50" height="50" />
@@ -181,6 +181,10 @@ const Home = () => {
                 <div className='flex flex-row-4 gap-5 px-5 py-5'>
                     <div className='bg-white rounded-lg p-5 w-1/3'>
                         <p className='text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolores iure tempore assumenda quia! Reprehenderit ut placeat in. Blanditiis, commodi.</p>
+                        <div className='flex gap-2 text-center py-2'>
+                            <img src="/src/assets/data.jpg" alt=""  width="40" height="40" />
+                            <h2 className='font-bold'>kwame</h2>
+                        </div>
                     </div>
                     <div className='bg-white rounded-lg p-5 w-1/3'>
                         <p className='text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolores iure tempore assumenda quia! Reprehenderit ut placeat in. Blanditiis, commodi.</p>
@@ -204,7 +208,7 @@ const Home = () => {
         <section className=' '>
             <div className='mt-30 place-items-center'>
                 <div className='absolute bg-green-800 rounded-2xl py-10 px-5 text-center border-2 border-white'>
-                    <p className='text-white font-semibold'>Lorem ipsum dolor sit amet consectetur elit.</p>
+                    <p className='text-white font-bold'>Lorem ipsum dolor sit amet consectetur elit.</p>
                     <button className='bg-white rounded-sm px-2 font-semibold'>Check Out</button>
                 </div>
             </div>
